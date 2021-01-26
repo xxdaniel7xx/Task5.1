@@ -1,3 +1,4 @@
+/*Определяем шрифты*/
 * {
     font-family: Gill Sans, sans-serif;
 }
@@ -6,9 +7,6 @@ body {
     margin: 0;
     padding: 0;
     background-color: #c5f5e8;
-    /*position: relative;*/
-    top:0;
-    left:0;
 }
 
 header {
@@ -29,6 +27,7 @@ header {
 
 }
 
+/*Задаю расположение дочерних блоков шапки в линию*/
 header .logo, .nav {
     display: inline-block;
     white-space: nowrap;
@@ -41,6 +40,7 @@ header .logo, .nav {
     float: left;
 }
 
+/*оформление кнопок шапки*/
 .button {
     margin-right: 20px;
     margin-left: 20px;
@@ -50,20 +50,23 @@ header .logo, .nav {
     border-width: 2px;
     border-style: solid;
 }
-
+/*Убрал подчеркивание ссылок в шапке*/
 .header_url {
     text-decoration: none;
 }
 
+/*Расположение кнопок навигации в линию*/
 .nav li {
     display: inline-block;
     font-size: 30px;
 }
 
+/*Цвет ссылок*/
 .nav a {
     color: #635f5f;
 }
 
+/*Блок навигации*/
 .nav {
     width: 50%;
     padding-right: 20px;
@@ -71,6 +74,7 @@ header .logo, .nav {
     position: relative;
     float: left;
 }
+
 
 main {
     position: relative;
@@ -94,6 +98,7 @@ h2 {
     text-align: center;
 }
 
+/*Оформления блока сетки на главной*/
 .col-1-2 {
     position:inherit;
     width: 40%;
@@ -108,6 +113,7 @@ h2 {
 
 }
 
+/*Оформления блока сетки "О нас"*/
 .col-1-1 {
     position:inherit;
     width: 60%;
@@ -122,6 +128,7 @@ h2 {
     padding: 20px;
 }
 
+/*Оформление блока сетки "Контакты"*/
 .col-1-0 {
     position:inherit;
     width: 60%;
@@ -136,6 +143,8 @@ h2 {
     padding: 20px;
 }
 
+/*С футером испытал много сложностей, а конкретно с его расположением*/
+/*Так и не смог его правильно расположить, так что пока ограничился костылем, с жесткой фиксацией на пикселях*/
 footer {
     background-color: cadetblue;
     width: 100%;
@@ -164,7 +173,7 @@ hr {
     color: cadetblue;
     border-color: cadetblue;
 }
-
+/*Выравнить фото на главной по центру*/
 .align_img {
     text-align: center;
 }

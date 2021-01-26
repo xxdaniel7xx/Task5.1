@@ -1,3 +1,123 @@
-.footer {
-    background-color: #01bf75;
+* {
+    font-family: Gill Sans, sans-serif;
 }
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #c5f5e8;
+    /*position: relative;*/
+    top:0;
+    left:0;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1%;
+    margin: 0;
+    min-height:15%;
+    background-color: cadetblue;
+    border-bottom-color: gold;
+    border-bottom-width: 10px;
+    border-style: solid;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+
+}
+
+header .logo, .nav {
+    display: inline-block;
+    white-space: nowrap;
+}
+
+.logo {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+.nav li {
+    display: inline-block;
+    font-size: 30px;
+}
+
+.nav a {
+    color: #635f5f;
+}
+
+.nav {
+    width: 50%;
+    padding-right: 20px;
+    padding-top: 20px;
+    position: relative;
+    float: left;
+}
+
+main {
+    position: relative;
+    top: 150px;
+
+}
+
+.container {
+    width: 100%;
+    max-width: 1024px;
+    padding: 0 15px;
+    margin: 0 auto;
+    position:inherit
+}
+
+h1 {
+    text-align: center;
+    color: ;
+}
+
+h2 {
+    text-align: center;
+}
+
+.col-1-2 {
+    position:inherit;
+    width: 40%;
+    float: left;
+    background-color: aliceblue;
+    min-height: 330px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: cadetblue;
+    margin: 10px;
+    padding: 20px;
+
+}
+
+
+footer {
+    background-color: cadetblue;
+    width: 100%;
+    max-height: 10%;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    top: 1000px;
+    padding: 10px;
+}
+
+.footer_text {
+    text-align: left;
+    padding: 15px;
+}
+
+.footer_text a {
+    color: #635f5f;
+}
+
+.myphoto {
+    padding: 5px
+}
+
+

@@ -41,6 +41,20 @@ header .logo, .nav {
     float: left;
 }
 
+.button {
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 5px;
+    background-color: gold;
+    border-color: #c5f5e8;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.header_url {
+    text-decoration: none;
+}
+
 .nav li {
     display: inline-block;
     font-size: 30px;
@@ -74,7 +88,6 @@ main {
 
 h1 {
     text-align: center;
-    color: ;
 }
 
 h2 {
@@ -95,6 +108,33 @@ h2 {
 
 }
 
+.col-1-1 {
+    position:inherit;
+    width: 60%;
+    float: left;
+    left: 15%;
+    background-color: aliceblue;
+    min-height: 200px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: cadetblue;
+    margin: 10px;
+    padding: 20px;
+}
+
+.col-1-0 {
+    position:inherit;
+    width: 60%;
+    float: left;
+    left: 15%;
+    background-color: aliceblue;
+    min-height: 200px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: cadetblue;
+    margin: 10px;
+    padding: 20px;
+}
 
 footer {
     background-color: cadetblue;
@@ -118,6 +158,15 @@ footer {
 
 .myphoto {
     padding: 5px
+}
+
+hr {
+    color: cadetblue;
+    border-color: cadetblue;
+}
+
+.align_img {
+    text-align: center;
 }
 
 

@@ -1,30 +1,63 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <title>О нас</title>
+    <link  href="../css/style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 <header>
-    <ul>
-        <li>
-            <a href="index.html">Главная</a>
-        </li>
-        <li>
-            <a href="about.html">О нас</a>
-        </li>
-        <li>
-            <a href="contacts.html">Контакты</a>
-        </li>
-    </ul>
+    <a href="index.html" title="Это мое лого. САМ РИСОВАЛ!">
+        <svg class="logo">
+            <g>
+                <circle cx="50" cy="50" r="50" fill="#fada58" stroke-width="1" stroke="rgb(0,0,0)"></circle>
+                <ellipse cx="30" cy="35" rx="5" ry="12" fill="black"></ellipse>
+                <ellipse cx="70" cy="35" rx="5" ry="12" fill="black"></ellipse>
+                <path fill="none" stroke="#333333" stroke-width="3" d="M25,65 C25,85 75,85 75,65"></path>
+            </g>
+        </svg>
+    </a>
+    <div class="nav">
+        <ul>
+            <li class="button">
+                <a class="header_url" href="index.html">Главная</a>
+            </li>
+            <li class="button">
+                <a class="header_url" href="about.html">О нас</a>
+            </li>
+            <li class="button">
+                <a class="header_url" href="contacts.html">Контакты</a>
+            </li>
+        </ul>
+    </div>
 </header>
-    <main>
-        <h1>О нас</h1>
-        <p>Мы лучшие в своем деле. Покупайте слонов у нас!</p>
-    </main>
-    <footer>
-        <span>&copy;&nbsp;Skillfactory</span>
-    </footer>
-
+<main>
+    <div class="container">
+        <h1>Ремонтная компания "Руки-Крюки"</h1>
+        <div class="col-1-1">
+            <h2>О нас</h2>
+            <p>Наши специалисты выполнят любые свои желания за ваши деньги. Мы профессионалы, отзывы о нас можно найти практически на любом ресурсе в разделе <b>жалобы</b></p>
+        </div>
+        <div class="col-1-1">
+            <h2>Наши преимущества</h2>
+            <ul>
+                <li>
+                    <p>Делаем качественно, но не очень.</p>
+                </li>
+                <li>
+                    <p>Дорого и сердито.</p>
+                </li>
+                <li>
+                    <p>Вежливость наше все, но только по пятницам, и только после обеда.</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</main>
+<footer>
+    <div class="footer_text">
+        <span><a href="https://skillfactory.ru/">&copy;&nbsp;Skillfactory</a></span>
+    </div>
+</footer>
 </body>
 </html>
